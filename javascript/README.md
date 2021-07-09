@@ -14,8 +14,7 @@ For the browser, open TennisTest.html and refresh after change.
 | Previous | Current |
 | -------- | ------- |
 
-| `switch (this.m_score1) { case 0: score = "Love-All"; break; case 1: score = "Fifteen-All"; break; case 2: score = "Thirty-All"; break; default: score = "Deuce"; break;`
-} | `score = SCORE[this.m_score1] ?? SCORE.__DEFAULT__;`
+| `switch (this.m_score1) { case 0: score = "Love-All"; break; case 1: score = "Fifteen-All"; break; case 2: score = "Thirty-All"; break; default: score = "Deuce"; break; }` | `score = SCORE[this.m_score1] ?? SCORE.__DEFAULT__;`
 | `switch (tempScore) { case 0: score += "Love"; break; case 1: score += "Fifteen"; break; case 2: score += "Thirty"; break; case 3: score += "Forty"; break;`
 } |`TEMP_SCORE[this.m_score1]`
 
