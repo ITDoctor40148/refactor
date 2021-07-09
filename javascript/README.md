@@ -9,6 +9,12 @@ For the browser, open TennisTest.html and refresh after change.
 
 # What's new
 
+## Used constants for score strings
+
+| Previous                                 | Current                                                                                                                                                        |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `score = "Love-All";` `score += "Love";` | `const SCORE = { 0: "Love-All",1: "Fifteen-All", 2: "Thirty-All", __DEFAULT__: "Deuce",};const TEMP_SCORE = {0: "Love",1: "Fifteen",2: "Thirty",3: "Forty",};` |
+
 ## Removed all switch statements
 
 | Previous                                                                                                                                                                    | Current                                              |
